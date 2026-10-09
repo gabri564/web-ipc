@@ -1,23 +1,23 @@
-export const careers = [
+// data/careers
+const careers = [
   {
     title: "Administración de Empresas",
     href: "/career/administration",
     img: "/business_admin/ADMINISTRACION.webp",
     hero: {
-      description:
-        "Forma líderes capaces de planificar, organizar y mejorar procesos para impulsar organizaciones con visión estratégica y compromiso social.",
+      description: "Lidera el futuro empresarial. Conviértete en un profesional integral capaz de dirigir organizaciones, tomar decisiones estratégicas y generar valor en un entorno de negocios dinámico y competitivo.",
       highlights: [
         {
-          title: "Gestión empresarial",
-          description: "Diseña estrategias y toma decisiones con base en datos y objetivos claros.",
+          title: "3 Años",
+          description: "Título profesional en administración de empresas",
         },
         {
-          title: "Innovación",
-          description: "Identifica oportunidades para optimizar procesos y fortalecer resultados.",
+          title: "100% presencial",
+          description: "Te garantizamos una formación práctica, directa y de alta calidad.",
         },
         {
-          title: "Liderazgo",
-          description: "Desarrolla habilidades para coordinar equipos y liderar proyectos con impacto.",
+          title: "Alta Empleabilidad",
+          description: "Inserción inmediata en empresas",
         },
       ],
     },
@@ -35,6 +35,8 @@ export const careers = [
   {
     title: "Traducción de Idiomas",
     href: "/career/language-translation",
-    img: "/INGLES.webp",
+    img: "INGLES.webp",
   },
 ];
+
+export { careers };
